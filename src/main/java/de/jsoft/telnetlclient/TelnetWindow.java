@@ -48,12 +48,13 @@ class TelnetWindow extends Frame {
             public void keyTyped(KeyEvent e) {
                 char k=e.getKeyChar();
                 try {
-                    terminal.put(k);
+
                     out.write((int)k);
                     if (k=='\r') {
                         out.write('\n');  // Convert CR to CR-LF
                         out.flush();
                     }
+                   // terminal.put(k);
                 }
                 catch (IOException x) {
                     System.out.println("Send: "+x);
