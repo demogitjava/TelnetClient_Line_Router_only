@@ -54,7 +54,7 @@ class TelnetWindow extends Frame {
                         out.write('\n');  // Convert CR to CR-LF
                         out.flush();
                     }
-                   // terminal.put(k);
+
                 }
                 catch (IOException x) {
                     System.out.println("Send: "+x);
