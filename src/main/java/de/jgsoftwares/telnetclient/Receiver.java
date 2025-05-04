@@ -1,4 +1,4 @@
-package de.jsoft.telnetlclient;
+package de.jgsoftwares.telnetclient;
 
 
 import java.io.IOException;

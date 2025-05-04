@@ -1,5 +1,6 @@
-package de.jsoft.telnetlclient;
+package de.jgsoftwares.telnetclient;
 
+import de.jgsoftwares.telnetclient.Receiver;
 import java.awt.*;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;

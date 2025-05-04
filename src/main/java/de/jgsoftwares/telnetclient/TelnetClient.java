@@ -1,6 +1,7 @@
-package de.jsoft.telnetlclient;
+package de.jgsoftwares.telnetclient;
 
 // Main program
+
 public class TelnetClient
 {
     public static void main(String[] argv) {
